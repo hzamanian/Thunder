@@ -17,7 +17,7 @@ canvas2.width = window.innerWidth
 canvas2.height = window.innerHeight - 3
 const ctx = canvas.getContext('2d', { alpha: false })
 let postCtx = canvas2.getContext('2d')
-const colors = ['#FFFFFF','#8585FF']
+const colors = ['#FFFFFF','#8585FF', '#3C13F2']
 ctx.strokeStyle = colors[Math.floor(random(0, colors.length))]
 
 let tree = {
