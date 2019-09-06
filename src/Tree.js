@@ -179,7 +179,7 @@ export function drawTree (ctx, postCtx, tree) {
   const height = ctx.canvas.height
   let paths = []
   makeTreePath({ x: 0, y: height }, '0', tree, paths)
-  clearPaths(paths)
+  // clearPaths(paths)
   paths = paths.filter(p => p !== false)
   paths = groupBy(paths, p => p.index.length)
   for (let key in paths) {
