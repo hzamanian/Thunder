@@ -26,7 +26,7 @@ let tree = {
   children: []
 }
 
-for (let i = 0; i < 35; i++) {
+for (let i = 0; i < 40; i++) {
   growTree(tree)
 }
 drawTree(ctx, postCtx, tree)
