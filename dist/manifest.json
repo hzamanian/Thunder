@@ -1,0 +1,7 @@
+{
+  "main.js": "main.bundle.js",
+  "runtime.js": "bundle.js",
+  "vendors.js": "vendors.bundle.js",
+  "assets/sound.mp3": "assets/sound.mp3",
+  "index.html": "index.html"
+}
